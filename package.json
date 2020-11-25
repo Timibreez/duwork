@@ -1,0 +1,25 @@
+{
+  "name": "duwork",
+  "version": "1.0.0",
+  "description": "DuWork API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "timibreez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "btoa": "^1.2.1",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timibreez/duwork.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Timibreez/duwork/issues"
+  },
+  "homepage": "https://github.com/Timibreez/duwork#readme"
+}
