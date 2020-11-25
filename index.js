@@ -58,9 +58,9 @@ const submitQuestion = async () => {
     await getToken();
        const payload = {
            "input_data":[{
-               "fields":["Question 1","Question 2","Question 3","Question 4","Question 5"],
+               "fields":["Would you prefer to divide your work into 25-minute work sessions with 5-minute breaks ","Allocate time periods to activities; you work within this time period, and then stop once the set time runs out","Question 3","Question 4","Question 5"],
                "values":[
-                   ["Would you prefer to divide your work into 25-minute work sessions with 5-minute breaks ","Allocate time periods to activities; you work within this time period, and then stop once the set time runs out",null,null,null]
+                   [,null,null,null]
                 ]
             }]
         }
